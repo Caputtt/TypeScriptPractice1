@@ -1,0 +1,27 @@
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Rubik', Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    color: brown;
+    background: antiquewhite;
+    border: brown;
+}
+.container-header {
+    text-transform: uppercase;
+    color: crimson;
+    font-weight: 700;
+}
+.text {
+    padding: 1rem;
+    width: auto;
+}
